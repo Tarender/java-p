@@ -4,6 +4,11 @@ package start;
 // sout - system.out.println();
 public class Hello {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        // Sprawdzenie JRE
+        System.out.println("JRE version: " +  System.getProperty("java.runtime.version"));
+
+
     }
 }
+
